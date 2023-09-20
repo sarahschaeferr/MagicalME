@@ -1,0 +1,229 @@
+body {
+	 background-color: #45B39D;
+  font-family:'Nunito', sans-serif;
+	 margin: 1rem auto;
+	 max-width: 100rem;
+}
+
+ h1 {
+	 text-align: center;
+	 margin-bottom: 9rem;
+   font-size: 13rem;
+   font-family:'Nunito', sans-serif;
+   font-weight: 100;
+  color:transparent;
+   padding: 0px 300px;
+   margin:   0px 50px;
+  //border-radius: 100%;
+  //background: #B1FAE6;
+  color: #B1FAE6;
+  //height: 75px;
+  //width: 75px;
+  position: relative;
+  display: inline-block;
+  background-color:pink;
+  animation-name: example;
+  animation-duration: 4s;
+     animation-iteration-count: 40;
+}
+
+@keyframes example {
+  0%   {background-color: pink;}
+  20% {background-color: FF5ED6;}
+  40%  {background-color: #B8F3DB;}
+  60% {background-color: #79A8F9;}
+  80%  {background-color: teal;}
+  100% {background-color: #B8D6F3;}
+}
+
+/*Strawbery*/
+.strawberry {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f353.png) 36 36, auto;
+}
+
+/*Sparkles*/
+.sparkles {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/2728.png) 36 36, auto;
+}
+
+/*Monkey*/
+.monkey{
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f412.png) 36 36, auto;
+}
+
+
+
+h2 {color:#F3A9D5;
+text-align:center;
+font-size: 5rem;
+margin-bottom: 1rem;
+}
+
+
+
+ h3{
+   color:transparent;
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+  font-size: 3rem;
+  background-image: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,1));
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+	animation: gradient 10s ease infinite;
+}
+
+  @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/*https://codingartistweb.com/2020/01/gold-text-effect-css-text-effect/*/
+.gold{
+  letter-spacing: 5px;
+   background-image: linear-gradient(
+	to right,
+	#462523 0,
+  #cb9b51 22%, 
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%,
+	#cb9b51 78%,
+	#462523 100%);
+  
+   color:transparent;
+   -webkit-background-clip:text;}
+
+section {
+	 display: flex;
+	 flex-direction: row;
+	 margin-bottom: 4rem;
+   padding: 4rem;
+}
+ figure {
+   padding: 9rem;
+  margin: 1rem;
+	 align-items: center;
+	 align-self: flex-start;
+	 display: flex;
+	 justify-content: center;
+	 top: 3rem;
+   position: sticky;
+}
+
+
+.goldmedalist {
+  padding: 0px 00px;
+  margin: 0px 00px;
+  color: #f6e27a;
+  position: relative;
+  display: inline-block;
+}
+
+.marsexploration {
+  text-align:center;
+ padding: 0px 00px;
+  margin: 0px 00px;
+  color: #aaaaea;
+  position: relative;
+  display: inline-block;
+}
+
+.specialtalent {
+  text-align:center;
+ padding: 00px 00px;
+  margin: 0px 00px;
+  color: #e3e3e3;
+  position: relative;
+  display: inline-block;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #transparent;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 125px;
+  left: 110%;
+}
+
+.goldmedalist:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.marsexploration:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.specialtalent:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #9266CC transparent transparent;
+}
+  
+  
+
+
+h4{
+  color: #C2F0CE}
+
+
+
+p{
+  color:white;}
+ 
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  color: #dd22dd;
+}
+
+button {
+  background-color: #9349DC;;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+
+
